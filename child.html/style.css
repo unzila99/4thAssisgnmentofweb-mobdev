@@ -1,0 +1,30 @@
+body{
+    text-align: center;
+    background-color: cornsilk;
+}
+h1{
+    text-decoration: underline;
+    text-align: center;
+    color: darkorchid;
+}
+h2{
+    text-decoration: underline;
+    color: darksalmon;
+}
+.tab
+{
+    clear: both;
+    width: 350px;
+    display: inline-flex;
+    
+}
+.tab1
+{
+    clear: both;
+    width: 350px;
+    display: inline-flex;
+}
+button
+{
+    color: blueviolet;
+}

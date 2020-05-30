@@ -1,0 +1,341 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.same
+{
+    text-align: center;
+}
+.social
+{
+    padding: 0 35px !important;
+}
+.social .fa
+{
+    font-size: 18px;
+    margin-left: 890px !important;
+    cursor: pointer;
+}
+.col1
+{
+    font-family:Segoe UI;  
+	background-color: lightblue;
+	padding: 0%;
+    width: 100%;
+    margin-right: 10px;
+    padding-right: 5px;
+}
+.col1 td
+{
+	color: white;
+}
+.right-menu li
+{
+    display: inline-block;
+}
+.right-menu .fa
+{
+    font-size: 18px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.navbar-brand img
+{
+    width: 200px;
+    margin-top: 2px;
+}
+.navbar-brand
+{
+    left: 50%;
+    top: 0px;
+    transform: translateX(-50%);
+    position: absolute;
+}
+.navbar-nav
+{
+    font-size: 15px;
+}
+.header
+{
+    background-color: ivory;
+}
+.navbar-brand
+{
+    padding: 0 35px !important;
+}
+.navbar-toggler
+{
+    border: none;
+    outline: none;
+    padding: 0;
+    margin-top: 30px !important;
+}
+.navbar-toggler .fa
+{
+    font-size: 30px;
+    cursor: pointer;
+}
+.banner
+{
+    position: relative;
+}
+.banner-title
+{
+    position: absolute;
+    left: 65%;
+    top: 40%;
+}
+.banner-title
+{
+    font-size: 55px;
+    background-color: dimgrey;
+    color: hotpink;
+    line-height: 70px;
+    padding: 0px 0px 0px 10px;
+}
+/* Fashion trend */
+.fashion-trends
+{
+    padding: 100px 0px;
+}
+.fashion-box
+{
+    font-weight: bolder;
+}
+p{
+    color: hotpink !important;
+    font-size: 25px !important;
+}
+.title-style h1
+{
+    padding: 40px 0px;
+}
+.title-style
+{
+    margin: 0 auto 40px;
+    height: 120px;
+    width: 80%;
+    max-width: 500px;
+    background: lavender;
+    position: relative;
+    box-shadow: 0px 4px 5px 0px rgba(0,0,50 0.5);
+}
+.title-style::after
+{
+    content:'';
+    height: 110px;
+    width: 80px;
+    background-color: blanchedalmond;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    z-index: -1;
+}
+.title-style::before
+{
+    content:'';
+    height: 110px;
+    width: 80px;
+    background-color: blanchedalmond;
+    position: absolute;
+    bottom: -10px;
+    right: -10px;
+    z-index: -1;
+}
+.trending-img
+{
+    position: relative;
+    margin-bottom: 15px;
+}
+.trending-img img
+{
+    width: 100%;
+}
+.btn-buy
+{
+    width: 150px;
+    padding: 10px 0px;
+    outline: none !important;
+    border: 0;
+    border-radius: 2px;
+    position: absolute;
+    background: red;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50% 0);
+    transition: .6s;
+    opacity: 0;
+    z-index: 1;
+}
+.trending-img:hover .btn-buy
+{
+    transform: translate(-50% 50%);
+    bottom: 50%;
+    opacity: 1;
+}
+.overlay
+{
+    height: 0%;
+    width: 100%;
+    background: lightgrey;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    transition: 0.5s;
+}
+.trending-img:hover .btn-buy .overlay
+{
+    opacity: 0.5;
+    height: 100%;
+}
+/* ****offer***** */
+.offer
+{
+    background-image: url(images/offer.png);
+    background-position: center;
+    background-size: cover;
+    
+}
+.row
+{
+    margin: initial !important;
+}
+.subscribe
+{
+    max-width: 600px;
+    margin-top: 90px;
+    padding: 50px;
+    background-color: lightcyan;
+    margin-bottom: 30px;
+}
+.subscribe >h4
+{
+    font-size: 30px !important;
+    font-weight: bold;
+    color: black;
+    text-decoration: underline;
+}
+.subscribe >h5
+{
+    font-size: 20px;
+    font-weight: bold;
+    color: cornflowerblue;
+}
+.subscribe a
+{
+    width: 120px;
+    display: block;
+    color: red !important;
+    background: white;
+    text-decoration: none !important;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+/* latest design */
+.latest_Design
+{
+    margin: 100px 0px 150px 0px;
+}
+.design-img
+{
+    margin-top: 10px;
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+}
+.design-img img
+{
+    width: 100%;
+    height: 100%;
+}
+.design-img h5
+{
+    margin-top: 20px;
+    font-weight: bold;
+}
+/* footer */
+.footer
+{
+    margin-top: 100px;
+    background: azure;
+}
+.payment
+{
+    text-align: center;
+    margin: 30px auto;
+}
+.payment img
+{
+    width: 400px;
+    cursor: pointer;
+}
+.insta-img
+{
+    text-align: center;
+    margin: 30px auto;
+}
+.insta-img img
+{
+    width:260px;
+    cursor: pointer;
+    padding: 5px;
+    margin-left: 90px;
+}
+.app-download
+{
+    text-align: center;
+    margin: 30px auto;
+}
+.app-download img
+{
+    width: 200px;
+    cursor: pointer;
+}
+.footer h5
+{
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+.footer h5::before
+{
+    content: '';
+    width: 70px;
+    height: 3px;
+    background:green;
+    top: 55px;
+    position: absolute;
+}
+/* Arrow */
+.arrow
+{
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 70%;
+    background: hotpink;
+}
+.arrow img
+{
+    width: 20opx;
+    height: 20px;
+    z-index: 1;
+}
+.footer1
+{
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    background: ivory;
+    padding: 20px 0px;
+    font-size: 20px;
+}
+.footer1 a
+{
+    color: hotpink;
+}

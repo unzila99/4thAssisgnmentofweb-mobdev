@@ -1,0 +1,27 @@
+body{
+    text-align: center;
+    background-color: cornsilk;
+}
+h1{
+    text-decoration: underline;
+    text-align: center;
+    color: darkorchid;
+}
+h2{
+    text-decoration: underline;
+    color: darksalmon;
+}
+p{
+    text-decoration: underline;
+}
+.fo
+{
+    width: 350px;
+    display: inline-flex;
+    
+}
+button
+{
+    color: blueviolet; 
+    cursor: pointer;
+}
